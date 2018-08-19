@@ -8,9 +8,20 @@ dataset contains columns:
 'PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked'
 ```
 
+after feature extraction:
+
+```
+'PassengerId', 'Survived', 'Pclass', 'Age', 'SibSp', 'Parch', 'Fare',
+       'is_mr', 'is_mrs', 'is_miss', 'is_master', 'is_dr', 'name_length',
+       'name_title_length', 'is_male', 'is_female', 'cabin_length',
+       'cabin_cat', 'embarked'
+```
+
 
 
 ### feature_extraction.py
+
+
 
 __feature_extraction.py__ is used to extracting features in dataset：
 
