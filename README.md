@@ -17,7 +17,7 @@ after feature extraction:
        'cabin_cat', 'embarked'
 ```
 
-
+__with an acc: 0.76555__
 
 ### feature_extraction.py
 
